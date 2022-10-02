@@ -127,6 +127,10 @@ hr{
 	padding-bottom: 40px;
 }
 
+.update{
+	font-size: 10pt;
+}
+
 @media only screen and (max-width: 991px) {
 	.photo{
 		display: block;
