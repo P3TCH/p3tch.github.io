@@ -111,6 +111,22 @@ hr{
 	font-size: 15pt;
 }
 
+.infos{
+	font-size: 14pt;
+}
+
+.blue{
+	color: #3d9b9b;
+	font-weight: bold;
+}
+
+.footer{
+	font-family: monospace;
+	text-align: right;
+	padding-right: 15px;
+	padding-bottom: 40px;
+}
+
 @media only screen and (max-width: 991px) {
 	.photo{
 		display: block;
