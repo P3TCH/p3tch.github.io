@@ -15,11 +15,6 @@ body{
 	opacity: 0.9;
 }
 
-.photo{
-	margin: auto;
-	text-align: center;
-}
-
 .set-right{
 	display: flex;
 	justify-content: right;
@@ -41,6 +36,8 @@ body{
 }
 .photo{
 	display: flex;
+	margin: auto;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
@@ -61,10 +58,71 @@ hr{
 	margin: 0;
 }
 
+.first_aug {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+.aboutme{
+	background-color: rgba(255, 255, 255, 0.438);
+	padding: 20px 50px 50px 50px;
+	max-width: 350px;
+	border-radius: 5px;
+	flex-basis: 30%;
+
+	box-shadow: 0 0 10px rgb(206, 202, 202);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.interest{
+	background-color: rgba(255, 255, 255, 0.438);
+	padding: 20px 50px 50px 50px;
+	max-width: 350px;
+	border-radius: 5px;
+	flex-basis: 30%;
+
+	box-shadow: 0 0 10px rgb(206, 202, 202);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.skills{
+	background-color: rgba(255, 255, 255, 0.438);
+	padding: 20px 50px 50px 50px;
+	max-width: 350px;
+	border-radius: 5px;
+	flex-basis: 30%;
+
+	box-shadow: 0 0 10px rgb(206, 202, 202);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.education{
+
+}
+.edu {
+	text-align: left;
+	padding-left: 15%;
+}
+.info{
+	margin-left: 20%;
+	font-size: 15pt;
+}
+
 @media only screen and (max-width: 991px) {
 	.photo{
 		display: block;
 		justify-content: center;
+	}
+
+	.p-left{
+		padding-top: 20px;
+	}
+
+	.p-right{
+		padding-top: 20px;
 	}
 
 	.head-custom{
@@ -87,5 +145,54 @@ hr{
 	}
 	.sp{
 		margin-top: 20px;
+	}
+
+	.first_aug {
+		display: inline;
+		margin: auto;
+		margin: 0;
+	}
+
+	.aboutme{
+		max-width: none;
+		background-color: #ECE2E1;
+		box-shadow: 0 0 0;
+		padding: 0px 50px 50px 50px;
+
+
+		margin-left: 10px;
+		margin-right: 40px;
+	}
+
+	.interest{
+		max-width: none;
+		background-color: rgba(255, 255, 255, 0.438);
+		box-shadow: 0 0 0;
+		padding: 20px 50px 50px 30px;
+
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.skills{
+		max-width: none;
+		background-color: #ECE2E1;
+
+		box-shadow: 0 0 0;
+
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 40px;
+	}
+
+	.edu{
+		text-align: center;
+		padding-left: 0;
+	}
+	.info{
+		margin-left: 40px;
+		font-size: 12pt;
+		padding-right: 20px;
 	}
 }
