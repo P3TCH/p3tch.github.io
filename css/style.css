@@ -69,37 +69,37 @@ hr{
 	justify-content: center;
 }
 .aboutme{
-	background-color: rgba(255, 255, 255, 0.438);
+	background-color: rgba(255, 255, 255, 0.644);
 	padding: 20px 50px 50px 50px;
 	max-width: 350px;
 	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 10px rgb(206, 202, 202);
+	box-shadow: 0 0 30px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 .interest{
-	background-color: rgba(255, 255, 255, 0.438);
+	background-color: rgba(255, 255, 255, 0.644);
 	padding: 20px 50px 50px 50px;
 	max-width: 350px;
 	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 10px rgb(206, 202, 202);
+	box-shadow: 0 0 30px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 .skills{
-	background-color: rgba(255, 255, 255, 0.438);
+	background-color: rgba(255, 255, 255, 0.644);
 	padding: 20px 50px 50px 50px;
 	max-width: 350px;
 	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 10px rgb(206, 202, 202);
+	box-shadow: 0 0 30px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
