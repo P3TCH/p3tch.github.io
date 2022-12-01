@@ -8,7 +8,9 @@ a{
 	text-decoration: none;
 	color: black;
 }
-
+h1{
+	font-family: 'Neucha', cursive;
+}
 .head-custom{
 	margin: 0;
 	background-color: #AEE1E1;
@@ -68,38 +70,43 @@ hr{
 	margin: auto;
 	justify-content: center;
 }
+h2{
+	margin: 0;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+}
+.hrcolor{
+	height: 0px;
+}
+.infos{
+	padding: 15px 15px;
+}
 .aboutme{
-	background-color: rgba(255, 255, 255, 0.644);
-	padding: 20px 50px 50px 50px;
+	background-color: #f5f0ef;
 	max-width: 350px;
-	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 30px rgb(206, 202, 202);
+	box-shadow: 0px 0px 15px 5px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 .interest{
-	background-color: rgba(255, 255, 255, 0.644);
-	padding: 20px 50px 50px 50px;
+	background-color: #f5f0ef;
 	max-width: 350px;
-	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 30px rgb(206, 202, 202);
+	box-shadow: 0px 0px 15px 5px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 .skills{
-	background-color: rgba(255, 255, 255, 0.644);
-	padding: 20px 50px 50px 50px;
+	background-color: #f5f0ef;
 	max-width: 350px;
-	border-radius: 5px;
 	flex-basis: 30%;
 
-	box-shadow: 0 0 30px rgb(206, 202, 202);
+	box-shadow: 0px 0px 15px 5px rgb(206, 202, 202);
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -179,36 +186,17 @@ hr{
 	}
 
 	.aboutme{
-		max-width: none;
-		background-color: #ECE2E1;
-		box-shadow: 0 0 0;
-		padding: 0px 50px 50px 50px;
-
-
-		margin-left: 10px;
-		margin-right: 40px;
+		margin: auto;
+		margin-bottom: 30px;
 	}
 
 	.interest{
-		max-width: none;
-		background-color: rgba(255, 255, 255, 0.438);
-		box-shadow: 0 0 0;
-		padding: 20px 50px 50px 30px;
-
-		margin-top: 10px;
-		margin-left: 40px;
-		margin-right: 40px;
+		margin: auto;
+		margin-bottom: 30px;
 	}
 
 	.skills{
-		max-width: none;
-		background-color: #ECE2E1;
-
-		box-shadow: 0 0 0;
-
-		margin-top: 10px;
-		margin-left: 10px;
-		margin-right: 40px;
+		margin: auto;
 	}
 
 	.edu{
