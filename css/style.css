@@ -111,9 +111,21 @@ h2{
 	margin-right: 20px;
 }
 
-.education{
-
+.aboutme:hover{
+	transform: scale(1.04);
+	cursor: default;
 }
+
+.interest:hover{
+	transform: scale(1.04);
+	cursor: default;
+}
+
+.skills:hover{
+	transform: scale(1.04);
+	cursor: default;
+}
+
 .edu {
 	text-align: left;
 	padding-left: 15%;
