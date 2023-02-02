@@ -155,6 +155,10 @@ h2{
 	font-size: 10pt;
 }
 
+.cass{
+	width: 500px;
+}
+
 @media only screen and (max-width: 991px) {
 	.photo{
 		display: block;
@@ -219,5 +223,14 @@ h2{
 		margin-left: 40px;
 		font-size: 12pt;
 		padding-right: 20px;
+	}
+	.cass{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.cass{
+		width: 90%;
 	}
 }
